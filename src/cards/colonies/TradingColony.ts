@@ -13,7 +13,7 @@ export class TradingColony implements IProjectCard {
     public cardType = CardType.ACTIVE;
 
     public canPlay(player: Player, game: Game): boolean {
-      return player.canPlayColonyPlacementCard(game);
+      return player.hasAvailableColonyTileToBuildOn(game);
     }
 
     public play(player: Player, game: Game) {
