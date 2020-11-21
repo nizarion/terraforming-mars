@@ -409,6 +409,7 @@ export class Turmoil implements ISerializable<SerializedTurmoil, Turmoil> {
         globalEventDealer: this.globalEventDealer,
         distantGlobalEvent: this.distantGlobalEvent,
         commingGlobalEvent: this.commingGlobalEvent,
+        politicalAgendasData: this.politicalAgendasData,
       };
       if (this.currentGlobalEvent !== undefined) {
         result.currentGlobalEvent = this.currentGlobalEvent;
